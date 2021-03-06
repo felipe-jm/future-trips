@@ -7,11 +7,11 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Next.js - Boilerplate</title>
+        <title>My Future Trips</title>
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Simple Next.js boilerplate with lint-staged, husky, eslint + prettier, jest, storybook and styled-components"
+          content="This project shows the places I want to visit!"
         />
       </Head>
 

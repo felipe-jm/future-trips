@@ -1,5 +1,5 @@
 {
-  "name": "react-avancado-boilerplate",
+  "name": "my-future-trips",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,7 @@
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js",
-    "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "husky": {
     "hooks": {
@@ -41,8 +39,6 @@
     "@babel/preset-typescript": "^7.13.0",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
-    "@storybook/addon-essentials": "6.1.21",
-    "@storybook/react": "6.1.21",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.20",
