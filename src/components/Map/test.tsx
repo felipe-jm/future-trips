@@ -19,7 +19,7 @@ describe('<Map />', () => {
       name: 'Londres',
       slug: 'londres',
       location: {
-        latitute: 51.531025586772955,
+        latitude: 51.531025586772955,
         longitude: -0.12836531048238128
       }
     };
@@ -29,7 +29,7 @@ describe('<Map />', () => {
       name: 'Tóquio',
       slug: 'toquio',
       location: {
-        latitute: 35.63043662093571,
+        latitude: 35.63043662093571,
         longitude: 139.7625295321917
       }
     };

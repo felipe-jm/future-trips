@@ -5,12 +5,12 @@ type Place = {
   name: string;
   slug: string;
   location: {
-    latitute: number;
+    latitude: number;
     longitude: number;
   };
 };
 
-type MapProps = {
+export type MapProps = {
   places?: Place[];
 };
 
@@ -28,12 +28,12 @@ const Map = ({ places }: MapProps) => (
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
     {places?.map(({ id, name, location }) => {
-      const { latitute, longitude } = location;
+      const { latitude, longitude } = location;
 
       return (
         <Marker
           key={`place-${id}`}
-          position={[latitute, longitude]}
+          position={[latitude, longitude]}
           title={name}
         />
       );
