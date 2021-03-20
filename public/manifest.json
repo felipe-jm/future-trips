@@ -1,6 +1,6 @@
 {
-  "name": "My Future Trips",
-  "short_name": "My Future Trips",
+  "name": "Future Trips",
+  "short_name": "Future Trips",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -15,7 +15,7 @@
   ],
   "theme_color": "#FFFFFF",
   "background_color": "#06092b",
-  "description": "This project shows the places I want to visit!",
+  "description": "Some places I want to visit ✈",
   "start_url": "/",
   "display": "fullscreen",
   "orientation": "portrait"

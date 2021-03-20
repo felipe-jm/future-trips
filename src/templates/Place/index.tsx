@@ -33,18 +33,18 @@ const PlaceTemplate = ({ place }: PlaceTemplateProps) => {
   return (
     <>
       <NextSeo
-        title={`${place.name} - My Future Trips`}
+        title={`${place.name} - Future Trips`}
         description={
           place.description?.text ||
-          'A simple project to show in a map the places that I went and show more informations and photos when clicked.'
+          'This project shows the places I want to visit in the future. Feel free to explore ✈'
         }
         canonical="https://my-future-trips.felipejung.com"
         openGraph={{
           url: 'https://my-future-trips.felipejung.com',
-          title: `${place.name} - My Future Trips`,
+          title: `${place.name} - Future Trips`,
           description:
             place.description?.text ||
-            'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
+            'This project shows the places I want to visit in the future. Feel free to explore ✈',
           images: [
             {
               url: place.gallery[0].url,

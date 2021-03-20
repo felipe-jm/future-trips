@@ -11,23 +11,23 @@ const Map = dynamic(() => import('components/Map'), { ssr: false });
 const HomeTemplate = ({ places }: MapProps) => (
   <>
     <NextSeo
-      title="My Future Trips"
-      description="This project shows the places I want to visit!"
+      title="Future Trips"
+      description="Some places I want to visit ✈"
       canonical="https://my-future-trips.felipejung.com"
       openGraph={{
         url: 'https://my-future-trips.felipejung.com',
         title: 'My Trips',
         description:
-          'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
+          'This project shows the places I want to visit in the future. Feel free to explore ✈',
         images: [
           {
             url: 'https://my-future-trips.felipejung.com/img/cover.png',
             width: 1280,
             height: 720,
-            alt: 'My Future Trips'
+            alt: 'Future Trips'
           }
         ],
-        site_name: 'My Future Trips'
+        site_name: 'Future Trips'
       }}
     />
 
