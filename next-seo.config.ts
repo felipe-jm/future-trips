@@ -6,7 +6,7 @@ export default {
     site_name: 'Future Trips'
   },
   twitter: {
-    handle: '@FelipeJung14',
+    handle: '@felipejungm',
     site: '@site',
     cardType: 'summary_large_image'
   }
