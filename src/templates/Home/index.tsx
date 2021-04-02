@@ -13,15 +13,15 @@ const HomeTemplate = ({ places }: MapProps) => (
     <NextSeo
       title="Future Trips"
       description="Some places I want to visit ✈"
-      canonical="https://my-future-trips.felipejung.com"
+      canonical="https://future-trips.felipejung.com"
       openGraph={{
-        url: 'https://my-future-trips.felipejung.com',
-        title: 'My Trips',
+        url: 'https://future-trips.felipejung.com',
+        title: 'Future Trips',
         description:
           'This project shows the places I want to visit in the future. Feel free to explore ✈',
         images: [
           {
-            url: 'https://my-future-trips.felipejung.com/img/cover.png',
+            url: 'https://future-trips.felipejung.com/img/cover.png',
             width: 1280,
             height: 720,
             alt: 'Future Trips'

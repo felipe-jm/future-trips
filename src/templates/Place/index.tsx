@@ -38,9 +38,9 @@ const PlaceTemplate = ({ place }: PlaceTemplateProps) => {
           place.description?.text ||
           'This project shows the places I want to visit in the future. Feel free to explore ✈'
         }
-        canonical="https://my-future-trips.felipejung.com"
+        canonical="https://future-trips.felipejung.com"
         openGraph={{
-          url: 'https://my-future-trips.felipejung.com',
+          url: 'https://future-trips.felipejung.com',
           title: `${place.name} - Future Trips`,
           description:
             place.description?.text ||
