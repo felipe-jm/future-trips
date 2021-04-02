@@ -1,4 +1,6 @@
 <h1 align="center">
+    <img width="80" alt="Ignite" src="./public/logo.svg" />
+    <br>
     Future trips
 </h1>
 
