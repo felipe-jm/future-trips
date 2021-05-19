@@ -4,17 +4,17 @@ import { GetServerSideProps } from 'next';
 import { getServerSideSitemap } from 'next-sitemap';
 
 import client from 'graphql/client';
-import { GetPagesQuery } from 'graphql/generated/graphql';
-import { GET_PAGES } from 'graphql/queries';
+import { GetPlacesQuery } from 'graphql/generated/graphql';
+import { GET_PLACES } from 'graphql/queries';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   // Method to source urls from cms
-  const { pages } = await client.request<GetPagesQuery>(GET_PAGES, {
+  const { places } = await client.request<GetPlacesQuery>(GET_PLACES, {
     first: 3
   });
 
-  const fields = pages.map(({ slug }) => ({
-    loc: `https://future-trips.felipejung.com/${slug}`, // Absolute url
+  const fields = places.map(({ slug }) => ({
+    loc: `https://future-trips.felipejung.com/place/${slug}`, // Absolute url
     lastmod: new Date().toISOString()
   }));
 
