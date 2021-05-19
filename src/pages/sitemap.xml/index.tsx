@@ -9,9 +9,7 @@ import { GET_PLACES } from 'graphql/queries';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   // Method to source urls from cms
-  const { places } = await client.request<GetPlacesQuery>(GET_PLACES, {
-    first: 3
-  });
+  const { places } = await client.request<GetPlacesQuery>(GET_PLACES);
 
   const fields = places.map(({ slug }) => ({
     loc: `https://future-trips.felipejung.com/place/${slug}`, // Absolute url
